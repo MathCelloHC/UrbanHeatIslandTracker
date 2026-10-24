@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15413805D30F2D4814E55BD7 /* SensorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA62923D3DD7BA1E95FE970 /* SensorView.swift */; };
+		3C4CBBB2E199EFE7668A6717 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC7AF5EA7777841F1601E31 /* WeatherService.swift */; };
+		4AD0FD8E6B23AED6CAEDBD2A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA94BBE4856B86DF518D87 /* DashboardView.swift */; };
+		5F60CA7CA38890A110E94F90 /* UHITrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A4A8F094984251D207663B /* UHITrackerApp.swift */; };
+		64C9AF24FFDB339BD8697BD5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18B0B1A975FE9D1BAF962B1 /* LocationManager.swift */; };
+		7198E7FA17B84910B0EDB15D /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1961A99629A6BA345D1D302 /* RootTabView.swift */; };
+		A84E1FECED61193321C67EA8 /* RecordingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7F408B9165B44D8279A2E /* RecordingSession.swift */; };
+		B3EF19278413251D8FD00AF5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C337537D95044DB538CDFB /* Theme.swift */; };
+		BA056956D41234213F611433 /* SubmitReadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D2073220CD25429373C04C /* SubmitReadingView.swift */; };
+		BFFFEE662805B1547E8F1C8F /* SurfaceReading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B32E793F0C99BA8274784F8 /* SurfaceReading.swift */; };
+		C303198FB3A44C61C06FF9DB /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DC950AD6182F128AB522BF /* RecordView.swift */; };
+		DABE874B88E51ED7E9AD9950 /* HeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7264E09C480249202575D0F9 /* HeatMapView.swift */; };
+		E879D95F3CF9F441D322A01C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0997E3CC235DAEC6BDD07732 /* Assets.xcassets */; };
+		F5595E5C895A282074BE108F /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20399255BF9730555FFEAB5 /* BluetoothManager.swift */; };
+		FCB4186BA1F6DC925A7CC7A9 /* ThermalBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD987EAFEC8B21197C532BC /* ThermalBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0997E3CC235DAEC6BDD07732 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09DC950AD6182F128AB522BF /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
+		2B32E793F0C99BA8274784F8 /* SurfaceReading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceReading.swift; sourceTree = "<group>"; };
+		7264E09C480249202575D0F9 /* HeatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapView.swift; sourceTree = "<group>"; };
+		7AF7F408B9165B44D8279A2E /* RecordingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingSession.swift; sourceTree = "<group>"; };
+		A1C337537D95044DB538CDFB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		ACD987EAFEC8B21197C532BC /* ThermalBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThermalBackground.swift; sourceTree = "<group>"; };
+		B3EA94BBE4856B86DF518D87 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		C4A4A8F094984251D207663B /* UHITrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UHITrackerApp.swift; sourceTree = "<group>"; };
+		C7D2073220CD25429373C04C /* SubmitReadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitReadingView.swift; sourceTree = "<group>"; };
+		E1E9AE6B65D16FF2F89F4FBF /* UHITracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UHITracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F18B0B1A975FE9D1BAF962B1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F1961A99629A6BA345D1D302 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		F20399255BF9730555FFEAB5 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		FAC7AF5EA7777841F1601E31 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		FEA62923D3DD7BA1E95FE970 /* SensorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SensorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5718E5B293E2797CA1699A51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		169C20F2EDE54D25B9E1A9C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F1961A99629A6BA345D1D302 /* RootTabView.swift */,
+				09DC950AD6182F128AB522BF /* RecordView.swift */,
+				ACD987EAFEC8B21197C532BC /* ThermalBackground.swift */,
+				B3EA94BBE4856B86DF518D87 /* DashboardView.swift */,
+				7264E09C480249202575D0F9 /* HeatMapView.swift */,
+				C7D2073220CD25429373C04C /* SubmitReadingView.swift */,
+				FEA62923D3DD7BA1E95FE970 /* SensorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1752852EC19F235B8D2E9CDE /* UHITracker */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB6F441397373A02A40522 /* App */,
+				B9E44145F05A15367E22775C /* Models */,
+				E3C368F25DF67430DF55D91F /* Services */,
+				169C20F2EDE54D25B9E1A9C5 /* Views */,
+				0997E3CC235DAEC6BDD07732 /* Assets.xcassets */,
+			);
+			path = UHITracker;
+			sourceTree = "<group>";
+		};
+		35B97696BA53ED4C3BB60184 = {
+			isa = PBXGroup;
+			children = (
+				1752852EC19F235B8D2E9CDE /* UHITracker */,
+				F9F3FA8D691FF7DAAEB2D22C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9E44145F05A15367E22775C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2B32E793F0C99BA8274784F8 /* SurfaceReading.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CBCB6F441397373A02A40522 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C4A4A8F094984251D207663B /* UHITrackerApp.swift */,
+				A1C337537D95044DB538CDFB /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E3C368F25DF67430DF55D91F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FAC7AF5EA7777841F1601E31 /* WeatherService.swift */,
+				7AF7F408B9165B44D8279A2E /* RecordingSession.swift */,
+				F18B0B1A975FE9D1BAF962B1 /* LocationManager.swift */,
+				F20399255BF9730555FFEAB5 /* BluetoothManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9F3FA8D691FF7DAAEB2D22C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E9AE6B65D16FF2F89F4FBF /* UHITracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5375F45D7B27BF4EC2B84975 /* UHITracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CC8868008C39EB0B60999EC /* Build configuration list for PBXNativeTarget "UHITracker" */;
+			buildPhases = (
+				660A82E8E44244424D392200 /* Sources */,
+				5718E5B293E2797CA1699A51 /* Frameworks */,
+				7992D75F45791A5C7B425E22 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UHITracker;
+			productName = UHITracker;
+			productReference = E1E9AE6B65D16FF2F89F4FBF /* UHITracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50B552511894EC8A2E4E2D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					5375F45D7B27BF4EC2B84975 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 39DCD60F440A0CD5DCC9EC47 /* Build configuration list for PBXProject "UHITracker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35B97696BA53ED4C3BB60184;
+			productRefGroup = F9F3FA8D691FF7DAAEB2D22C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5375F45D7B27BF4EC2B84975 /* UHITracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7992D75F45791A5C7B425E22 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E879D95F3CF9F441D322A01C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		660A82E8E44244424D392200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60CA7CA38890A110E94F90 /* UHITrackerApp.swift in Sources */,
+				B3EF19278413251D8FD00AF5 /* Theme.swift in Sources */,
+				BFFFEE662805B1547E8F1C8F /* SurfaceReading.swift in Sources */,
+				3C4CBBB2E199EFE7668A6717 /* WeatherService.swift in Sources */,
+				A84E1FECED61193321C67EA8 /* RecordingSession.swift in Sources */,
+				64C9AF24FFDB339BD8697BD5 /* LocationManager.swift in Sources */,
+				F5595E5C895A282074BE108F /* BluetoothManager.swift in Sources */,
+				7198E7FA17B84910B0EDB15D /* RootTabView.swift in Sources */,
+				C303198FB3A44C61C06FF9DB /* RecordView.swift in Sources */,
+				FCB4186BA1F6DC925A7CC7A9 /* ThermalBackground.swift in Sources */,
+				4AD0FD8E6B23AED6CAEDBD2A /* DashboardView.swift in Sources */,
+				DABE874B88E51ED7E9AD9950 /* HeatMapView.swift in Sources */,
+				BA056956D41234213F611433 /* SubmitReadingView.swift in Sources */,
+				15413805D30F2D4814E55BD7 /* SensorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D877B00267F9DE07EC891C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X845X6U2CS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "UHI Tracker connects to your BLE temperature sensor to read live surface temperature.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "UHI Tracker uses your location to tag temperature readings and fetch local weather.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UHITracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61C864FD30314110E5F8CC1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X845X6U2CS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "UHI Tracker connects to your BLE temperature sensor to read live surface temperature.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "UHI Tracker uses your location to tag temperature readings and fetch local weather.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.UHITracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3647A556A16B7D50E9381C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C44D111574387F66892BE37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39DCD60F440A0CD5DCC9EC47 /* Build configuration list for PBXProject "UHITracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3647A556A16B7D50E9381C /* Debug */,
+				C44D111574387F66892BE37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CC8868008C39EB0B60999EC /* Build configuration list for PBXNativeTarget "UHITracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61C864FD30314110E5F8CC1B /* Debug */,
+				1D877B00267F9DE07EC891C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50B552511894EC8A2E4E2D7 /* Project object */;
+}
